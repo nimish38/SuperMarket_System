@@ -1,0 +1,13 @@
+create database emp;
+use emp;
+
+create table empl(usr varchar(20),pwd varchar(20));
+insert into empl values('abc','pqr');
+
+create table admin(usr varchar(20),pwd varchar(20));
+insert into admin values('admin','root');
+
+create table gro(name varchar(20),pri varchar(20),avai varchar(20));
+insert into gro('toor','50','10');
+insert into gro('moog','30','20');
+insert into gro('chana','70','15');
